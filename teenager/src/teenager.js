@@ -1,3 +1,8 @@
 function isTeenager(age) {
-  //code goes here
+  if (age > 12 && age < 20) {
+    return true;
+  }
+  else {
+    return false;
+  }
 }
